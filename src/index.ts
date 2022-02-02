@@ -24,7 +24,7 @@ const url = 'https://www.meritechcapital.com/public-comparables/enterprise#/publ
     return dateHdr.textContent.trim();
   });
 
-  // Build header data manually (because url's table header is annoying...)
+  // Build header data manually (because web page's table header is annoying...)
   const headers: string[] = [
     '($ in millions, except per share)',
     dateHeader,
